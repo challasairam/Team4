@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:weightSum="1"
+    android:background="@drawable/background">
+
+    <EditText
+        android:id="@+id/e1"
+        android:layout_width="250sp"
+        android:layout_height="wrap_content"
+        android:hint="First Name"
+        android:layout_gravity="right"
+        android:layout_marginTop="24dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+
+    <EditText
+        android:id="@+id/e2"
+        android:layout_width="250sp"
+        android:layout_height="wrap_content"
+        android:hint="Last Name"
+        android:layout_gravity="right"
+        android:layout_marginTop="24dp"
+        android:layout_below="@+id/e1"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <EditText
+        android:id="@+id/e3"
+        android:layout_width="250sp"
+        android:layout_height="wrap_content"
+        android:hint="AGE"
+        android:layout_gravity="right"
+        android:layout_below="@+id/e2"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="25dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+
+    <EditText
+        android:id="@+id/e4"
+        android:layout_width="250sp"
+        android:layout_height="wrap_content"
+        android:hint="Create Password"
+        android:layout_gravity="right"
+        android:layout_below="@+id/e3"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="23dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <EditText
+        android:id="@+id/e5"
+        android:layout_width="250sp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:hint="Re Enter Password"
+        android:layout_marginTop="23dp"
+        android:layout_below="@+id/e4"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/b1"
+        android:text="submit"
+        android:textSize="20sp"
+        android:layout_below="@+id/e5"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="62dp" />
+
+
+
+</RelativeLayout>
